@@ -1,24 +1,26 @@
 {
   "name": "cleanup-loader",
-  "version": "0.1.0",
-  "main": "dist/index.js",
+  "version": "0.1.1",
+  "main": "src/index.js",
   "license": "MIT",
-  "scripts": {
-    "watch": "npm run build --watch",
-    "build": "babel src --out-dir dist"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-preset-env": "^1.6.1"
-  },
   "description": "Prevent webpack from emitting unwanted .js/.js.map files from unwanted files",
   "author": "Christian Tschugg",
+  "keywords": [
+    "webpack3",
+    "webpack-loader",
+    "cleanup",
+    "javascript",
+    "esnext"
+  ],
   "repository": {
     "url": "git@github.com:iantsch/cleanup-loader.git",
     "type": "git"
   },
   "dependencies": {
     "loader-utils": "^1.1.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/iantsch/cleanup-loader/issues"
+  },
+  "homepage": "https://github.com/iantsch/cleanup-loader#README"
 }
