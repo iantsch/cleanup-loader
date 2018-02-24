@@ -4,7 +4,7 @@
 
 Prevent webpack from emitting unwanted .js/.js.map files from certain files
 
-![](https://raw.githubusercontent.com/iantsch/cleanup-loader/master/assets/cleanup-loader.svg)
+![cleanup-loader](https://raw.githubusercontent.com/iantsch/cleanup-loader/master/assets/cleanup-loader.svg?sanitize=true)
 
 ## Installation
 
