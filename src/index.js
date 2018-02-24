@@ -1,7 +1,6 @@
 import {getOptions} from 'loader-utils';
 
 export default function cleanupLoader(source) {
-    this.cacheable();
     const {test} = getOptions(this);
     this._compiler.plugin('emit', cleanupUnwantedJsFiles(test));
     this.callback(null, source);
