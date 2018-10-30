@@ -56,3 +56,6 @@ module.exports = {
 ## License
 
 MIT
+
+## Credits
+[@iantsch](https://twitter.com/iantsch) - [web developer](https://mbt.wien) behind this and other projects.
