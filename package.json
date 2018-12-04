@@ -1,6 +1,6 @@
 {
   "name": "cleanup-loader",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
   "description": "Prevent webpack from emitting unwanted .js/.js.map files from unwanted files",
