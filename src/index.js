@@ -3,7 +3,7 @@ const loaderUtils = require('loader-utils');
 function cleanupLoader(source) {
   this.raw = true;
   const {test} = loaderUtils.getOptions(this);
-  this._compiler.plugin('emit', cleanupUnwantedJsFiles(test));
+  this._compiler.hooks.done.tap('emit', (test) => cleanupUnwantedJsFiles(test));
   this.callback(null, source);
 }
 
