@@ -1,6 +1,6 @@
 # cleanup-loader
 
-[![licence](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)]() [![tag](https://img.shields.io/badge/tag-v1.0.0-lightgrey.svg?style=flat-square)]()
+[![licence](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)]() [![tag](https://img.shields.io/badge/tag-v1.0.0-lightgrey.svg?style=flat-square)]() [![Greenkeeper badge](https://badges.greenkeeper.io/iantsch/cleanup-loader.svg)](https://greenkeeper.io/)
 
 Prevent webpack from emitting unwanted .js/.js.map files from certain files
 
